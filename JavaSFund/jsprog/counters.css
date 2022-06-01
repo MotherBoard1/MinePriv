@@ -1,0 +1,19 @@
+body
+{
+    background: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#example{
+    padding: 20px;
+}
+
+#example span{
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    background: #ddf;
+    foreground: blue;
+    font-weight: bold;
+}
+
