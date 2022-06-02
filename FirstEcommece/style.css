@@ -98,7 +98,7 @@ button.white{
 }
 
 #header .logo{
-    width: 200px ;
+    width: 120px ;
     height: 120px ;
     display: flex;
     align-items: center;
@@ -500,4 +500,127 @@ button.white{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    background-image: url(images/banner/tyre.jpg);
+    background-repeat: no-repeat;
+    background-position: 30% 30% ;
+    background-color: bisque;
+    background-size: cover;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: goldenrod;
+}
+
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+#newsletter p span{
+    color: brown;
+}
+
+#newsletter .form{
+    display: flex;
+    width:40%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: #088178;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    font-size: 12px;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#newsletter button:hover{
+    background: rgb(255, 166, 1);
+    color: black;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin-bottom:8px;
+}
+
+footer a:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    
+    padding-right: 4px;
+    
+}
+
+
+footer .install .row img{
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+
+footer .follow i:hover{
+    
+    color:blue;
+    cursor: pointer;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
 }
